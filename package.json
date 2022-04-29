@@ -1,0 +1,32 @@
+{
+  "name": "price-request-aggregator",
+  "version": "1.0.0",
+  "description": "A nodejs server which takes in multiple requests parameters to make a request and return the median of results. This can be used as middleware for Chainlink v1 jobs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacquesvcritien/price-request-aggregator.git"
+  },
+  "keywords": [
+    "Chainlink",
+    "NodeJs",
+    "Blockchain",
+    "PriceFeeds"
+  ],
+  "author": "Jacques Vella Critien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacquesvcritien/price-request-aggregator/issues"
+  },
+  "homepage": "https://github.com/jacquesvcritien/price-request-aggregator#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.0",
+    "fs": "0.0.1-security",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
